@@ -16,3 +16,8 @@ body {
     font-family: 'SF Pro Rounded', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 144px;
 }
+
+.date {
+    font-family: 'Verdana', 'Ubuntu', 'Trebuchet MS', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 72px;
+}

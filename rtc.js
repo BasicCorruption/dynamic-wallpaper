@@ -1,4 +1,4 @@
-function showTime() {
+function showDate() {
     var date = new Date();
     var h = date.getHours();
     var m = date.getMinutes();
@@ -22,7 +22,7 @@ function showTime() {
     document.getElementById("rtc").innerText = time;
     document.getElementById("rtc").textContent = time;
     
-    setTimeout(showTime, 1000);
+    setTimeout(showDate, 1000);
 }
 
-showTime();
+showDate();
