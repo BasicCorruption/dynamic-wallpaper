@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>You're not supposed to see this title!</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="weather"></div>
-        <div class="clock">
-            <h1 class="time">3:55 PM</h1>
+        <div class="clock" align=center>
+            <div class="time" id="rtc" onload="showTime()">
+                <script src="rtc.js"></script>
+                
+            </div>
             <h2 class="date">10/30/2022</h2>
         </div>
         <div class="apps">

@@ -1,7 +1,18 @@
+@font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('fonts/FontsFree-Net-SF-Pro-Rounded-Semibold.ttf');
+}
+
 body {
     background-image: none;
 }
 
 .clock {
-    
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    font-family: 'SF Pro Rounded', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 144px;
 }
