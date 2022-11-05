@@ -1,4 +1,4 @@
-function showDate() {
+function showTime() {
     var date = new Date();
     var h = date.getHours();
     var m = date.getMinutes();
@@ -21,6 +21,23 @@ function showDate() {
     var time = h + ":" + m + ":" + s + " " + session;
     document.getElementById("rtc").innerText = time;
     document.getElementById("rtc").textContent = time;
+    
+    setTimeout(showTime, 1000);
+}
+
+showTime();
+
+function showDate() {
+    var date = new Date();
+    var d = date.getDate();
+    console.log(d);
+    var m = date.getMonth();
+    var y = date.getFullYear();
+    
+    var fd = m + "/" + d + "/" + y;
+    //var fd = date.getDate();
+    document.getElementById("rtd").innerText = fd;
+    document.getElementById("rtd").textContent = fd;
     
     setTimeout(showDate, 1000);
 }
