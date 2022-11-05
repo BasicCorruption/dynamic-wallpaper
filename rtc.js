@@ -31,7 +31,7 @@ function showDate() {
     var date = new Date();
     var d = date.getDate();
     console.log(d);
-    var m = date.getMonth();
+    var m = date.getMonth() + 1;
     var y = date.getFullYear();
     
     var fd = m + "/" + d + "/" + y;

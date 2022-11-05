@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="container">
+        <!-- Main Wallpaper -->
         <div class="weather"></div>
         <div class="clock" align=center>
             <div class="time" id="rtc" onload="showTime()">
@@ -23,14 +24,31 @@
             </div>
         </div>
         <div class="apps">
-            <div class="snake"></div>
-            <div class="breakout"></div>
-            <div class="tetronis"></div>
-            <div class="minibrowser"></div>
+            <div class="icon_app" id="snake"></div>
+            <div class="icon_app" id="breakout"></div>
+            <div class="icon_app" id="tetronis"></div>
+            <div class="icon_app" id="minibrowser"></div>
         </div>
         <div class="websites"></div>
-        <div class="shortcuts"></div>
-        <div class="rss"></div>
+        <div class="shortcuts">
+            <div class="icon_shortcut" id="default_browser"></div>
+        </div>
+        <div class="rss">
+            <div class="rss_main"></div>
+            <div class="rss_1"></div>
+            <div class="rss_2"></div>
+            <div class="rss_3"></div>
+        </div>
+        
+        <!-- Component Containers -->
+        <div class="container" id="appc">
+            <!-- App Container -->
+            <div class="snake_container"></div>
+            <div class="breakout_container"></div>
+            <div class="tetronis_container"></div>
+            <div class="minibrowser_container"></div>
+        </div>
+        <div class="container" id="shortcutc"></div>
     </div>
 </body>
 </html>
